@@ -1,5 +1,9 @@
 # Getting Started Guide for Realtek's Ameba Z2 AWS IoT ExpressLink Evaluation Kit
 
+## WARNING : 
+### Ameba Z2 AWS IoT ExpressLink Evaluation Kit is offers direct access and connections to the AWS Cloud with pre-installed AWS IoT ExpressLink firmware and certificate. 
+
+### Please DO NOT download other firmware or erase flash data.
 # Table of Contents
 
 1. [Document Information](#1-document-information)
