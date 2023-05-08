@@ -43,13 +43,13 @@ Examples for AWS IoT ExpressLink can be found [here](https://github.com/aws/iot-
 Realtek's Ameba Z2 AWS IoT ExpressLink board (Henceforth referred to as ExpressLink board) has a pin header, so it can be used with a Raspberry Pi or any other host.
 It has the following connection pins that need to be made, for full functionality of the board:  
 
-| ExpressLink Pin | Ameba-Z2 GPIO Pin |
-|-----------------|-------------------|
-| TX              | PA_14             |
-| RX              | PA_13             |
-| EVENT           | PA_20             |
-| WAKE            | PA_17             |
-| RESET           | PA_19             |
+| ExpressLink Pin | Ameba-Z2 EVB GPIO | ITON's module GPIO | 
+|-----------------|-------------------|--------------------|
+| TX              | PA_14             | PA_14              |
+| RX              | PA_13             | PA_13              |
+| **EVENT**           | **PA_20**             | **PA_18**              |
+| WAKE            | PA_17             | PA_17              |
+| RESET           | PA_19             | PA_19              |
 
 **NOTE**: While all the communication between the ExpressLink modules and the AWS cloud is encrypted during transmission (using TLS 1.2 protocol) and at rest, the serial interface (UART) between the host processor and the module is not encrypted.
 
