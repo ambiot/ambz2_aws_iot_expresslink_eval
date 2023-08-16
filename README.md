@@ -1,11 +1,13 @@
 # Getting Started Guide for Realtek's Ameba Z2 AWS IoT ExpressLink Evaluation Kit
 
 ## WARNING : 
+
+### Ameba Z2 AWS IoT ExpressLink Evaluation Kit is dedicated to AWS IoT ExpressLink, please do not change the firmware if it is not officially released.
+
 ### Ameba Z2 AWS IoT ExpressLink Evaluation Kit is offers direct access and connections to the AWS Cloud with pre-installed AWS IoT ExpressLink firmware and certificate. 
 
-### !!! Please DO NOT download other firmware or erase flash data. !!!
-### !!! Please DO NOT download other firmware or erase flash data. !!!
-### !!! Please DO NOT download other firmware or erase flash data. !!!
+### !!! Please DO NOT download non-expresslink firmware or erase flash data. !!!
+
 # Table of Contents
 
 1. [Document Information](#1-document-information)
@@ -39,6 +41,11 @@ Examples for AWS IoT ExpressLink can be found [here](https://github.com/aws/iot-
 >
 
 # 3. Hardware Description
+
+## 
+Ameba Z2 AWS IoT ExpressLink Evaluation Kit is offers direct access and connections to the AWS Cloud with pre-installed AWS IoT ExpressLink firmware and certificate. 
+
+### !!! Please DO NOT download non-expresslink firmware or erase flash data. !!!
 
 Realtek's Ameba Z2 AWS IoT ExpressLink board (Henceforth referred to as ExpressLink board) has a pin header, so it can be used with a Raspberry Pi or any other host.
 It has the following connection pins that need to be made, for full functionality of the board:  
