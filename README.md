@@ -284,7 +284,7 @@ You should have received a firmware image signed by the manufacturer of the Expr
 
 You need to add the signature obtained previously, to the ExpressLink board so that the firmware can be verified.  
 Start by giving the command:  
-**AT+CONF OTACertificate=PEM**  
+**AT+CONF OTAcertificate=PEM**  
 The module will respond with "OK" and go into "Certificate writing" mode.  
 You can then paste the contents of the ecdsasigner.crt file in your terminal.  
 
